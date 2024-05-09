@@ -2,7 +2,7 @@ import './profile.css';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <div className="main-container">
+    <div className="profile-container">
       <div className="profile-start">
         <img className="profile-picture" src={avatar} alt="User avatar" />
         <p className="profile-user">{username}</p>
