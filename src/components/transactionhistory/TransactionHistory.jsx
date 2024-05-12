@@ -1,4 +1,5 @@
 import './transaction-history.css';
+import Transaction from './TransactionHistoryComponent';
 
 const TransactionTable = ({ transactions }) => {
   return (
@@ -19,16 +20,6 @@ const TransactionTable = ({ transactions }) => {
         </tbody>
       </table>
     </div>
-  );
-};
-
-const Transaction = ({ transaction }) => {
-  return (
-    <tr className="table-item">
-      <td className="table-cell">{transaction.type}</td>
-      <td className="table-cell">{transaction.amount}</td>
-      <td className="table-cell">{transaction.currency}</td>
-    </tr>
   );
 };
 

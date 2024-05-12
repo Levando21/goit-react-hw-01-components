@@ -15,5 +15,5 @@ code {
 }
 
 @import url('./components/profile.css');
-@import url('./components/friend-list.css');
-@import url('./components/transaction-history.css');
+@import url('./components/friends/friend-list.css');
+@import url('./components/transactionhistory/transaction-history.css');
