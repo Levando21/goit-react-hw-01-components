@@ -1,4 +1,4 @@
-export default function FriendItem({ friend }) {
+const FriendItem = ({ friend }) => {
   return (
     <div>
       <img className="friend-picture" src={friend.avatar} alt={friend.name} />
@@ -6,4 +6,6 @@ export default function FriendItem({ friend }) {
       <p className="friend-status">{friend.isOnline ? 'Online' : 'Offline'}</p>
     </div>
   );
-}
+};
+
+export default FriendItem;

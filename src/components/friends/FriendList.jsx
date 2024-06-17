@@ -1,5 +1,7 @@
 import './friend-list.css';
+
 import Friend from './FriendListComponent';
+
 const FriendList = ({ friends }) => {
   return (
     <div className="friends-container">

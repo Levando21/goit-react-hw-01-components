@@ -1,9 +1,11 @@
-import FriendItem from './FriendListItem';
-const Friend = () => {
+import FriendItem from './FriendItem';
+
+const Friend = ({ friend }) => {
   return (
     <li className="friends-item">
-      <FriendItem />
+      <FriendItem friend={friend} />
     </li>
   );
 };
+
 export default Friend;
